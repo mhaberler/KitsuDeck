@@ -12,7 +12,7 @@ static lv_disp_drv_t disp_drv;
 
 // define the *gfx value from the main.cpp file
 extern Arduino_ESP32RGBPanel *bus;
-extern Arduino_RPi_DPI_RGBPanel *gfx;
+extern Arduino_RGB_Display *gfx;
 
 void my_disp_flush(lv_disp_drv_t *disp, const lv_area_t *area, lv_color_t *color_p);
 
